@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import '../Components/Board.css'
 
 const Board = () => {
   const [squares, setSquares] = useState(Array(9).fill("")); // initialize 9 empty squares
